@@ -1,0 +1,68 @@
+{
+  "conversation": [
+    {
+      "user": "Filipino",
+      "responses": [
+        "Pagbasa (Reading), Pagsulat (Writing), Wika (Language), at Panitikan (Literature)."
+      ]
+    },
+    {
+      "user": "Matematika",
+      "responses": [
+        "Aritmetika (Arithmetic), Heometriya (Geometry), Pagsusukat (Measurement), at Estadistika (Statistics)."
+      ]
+    },
+    {
+      "user": "Agham",
+      "responses": [
+        "Kasaysayan ng Kalikasan (Natural History), Kalusugan (Health), Pisika (Physics), Kimika (Chemistry), Biyolohiya (Biology)."
+      ]
+    },
+    {
+      "user": "Araling Panlipunan",
+      "responses": [
+        "Kasaysayan ng Pilipinas (Philippine History), Heograpiya (Geography), Sibika (Civics), Ekonomiks (Economics), Aspektong Panglipunan (Social Aspects)."
+      ]
+    },
+    {
+      "user": "Ingles",
+      "responses": [
+        "Reading, Writing, Communication Arts, Creative Writing."
+      ]
+    },
+    {
+      "user": "Edukasyon sa Pagpapakatao (EsP)",
+      "responses": [
+        "Pagpapahalaga (Values) at Moral na Pag-unlad (Moral Development)."
+      ]
+    },
+    {
+      "user": "Edukasyong Pantahanan at Pangkabuhayan (EPP)",
+      "responses": [
+        "Kasanayan sa Paggawa (Skills in Work), Pagsasaka (Farming), Paggabay sa Kalusugan (Health Guidance), at iba pang kasanayan."
+      ]
+    },
+    {
+      "user": "Edukasyong Pangkatawan at Kalusugan (P.E)",
+      "responses": [
+        "P.E. at Edukasyong Pangkalusugan (Health Education)."
+      ]
+    },
+    {
+      "user": "Musika at Sining",
+      "responses": [
+        "Musika (Music), Sining (Arts)."
+      ]
+    },
+    {
+      "user": "sasagutin mo ba talaga?",
+      "responses": [
+        "Oo naman!",
+        "Oo",
+        "Sasagutin ko",
+        "Tumutupad ako sa usapan",
+        "Hindi ako Scammer"
+      ]
+    }
+  ]
+}
