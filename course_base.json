@@ -8,101 +8,144 @@
       ]
     },
     {
-      "user": "11", 
+      "user": [
+        "11",
+        "Grade 11",
+        "11 po"
+      ],
       "responses": [
-        "Ikaw pala ay isang studyante mula sa ika-11 na baitang. Sa panahon ng pagiging studyante ng senior ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Sa iyong pag-aaral, anong asignatura ang iyong kinahihiligan?"
+        "Ikaw pala ay isang estudyante mula sa ika-11 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?"
       ]
     },
     {
-      "user": "12", 
-      "responses": [
-        "Ikaw pala ay isang studyante mula sa ika-12 na baitang. Sa panahon ng pagiging studyante ng senior ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Sa iyong pag-aaral, anong asignatura ang iyong kinahihiligan?"
-      ]
-    },
-    {
-      "user": "Agham", 
-      "responses": [
-        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
-      ]
-    },
-    {
-      "user": "Sining", 
-      "responses": [
-        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
-      ]
-    },
-    {
-      "user": "Pagluluto", 
-      "responses": [
-        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
-      ]
-    },
-    {
-      "user": "Pagtuturo", 
-      "responses": [
-        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
-      ]
-    },
-    {
-      "user": "Computer Games", 
-      "responses": [
-        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
-      ]
-    },
-    {
-      "user": "Teknolohpraktikal na pag-aaral", 
-      "responses": [
-        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
-      ]
-    },
-    {
-      "user": "group work", 
-      "responses": [
-        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
-      ]
-    },
-    {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
-      "responses": [
-        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
-      ]
-    },
-    {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": "grade 11",
       "responses": [
         ""
       ]
     },
     {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": "11",
       "responses": [
         ""
       ]
     },
     {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": "11 po",
       "responses": [
         ""
       ]
     },
     {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": [
+        "12",
+        "Grade 12",
+        "12 po"
+      ],
+      "responses": [
+        "Ikaw pala ay isang estudyante mula sa ika-12 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo lalo na\u2019t ikaw ay magtatapos na ngayong taon. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso? "
+      ]
+    },
+    {
+      "user": "12",
       "responses": [
         ""
       ]
     },
     {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": [
+        "oo",
+        "uu",
+        "sige",
+        "sigii",
+        "Ituloy"
+      ],
+      "responses": [
+        "Mabuti! Ano ang pinaka-gusto o interesado mong asignaturang itinuro sa iyo noong Junior High School? (Pumili ng sagot sa ibaba at isagot lamang ang TAGALOG (sa Pangunahing Asignatura) o AKRONIM lamang (sa Minor na Asignatura))"
+      ]
+    },
+    {
+      "user": "uu",
       "responses": [
         ""
       ]
     },
     {
-      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "user": "sige",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "oo",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": [
+        "hindi",
+        "huwag na",
+        "ayoko na pala",
+        "ayaw ko na",
+        "ayaw"
+      ],
+      "responses": [
+        "Kung nais mo na agad itigil, i-tayp lamang ang salitang \u201cTapusin\u201d. Kung nagbago naman ang iyong isip, i-tayp naman ang salitang \u201cItuloy\u201d. "
+      ]
+    },
+    {
+      "user": "huwag na",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "ayoko na pala",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "ayaw ",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "hindi",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "",
+      "responses": [
+        "ayaw"
+      ]
+    },
+    {
+      "user": "tapusin",
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "ituloy",
       "responses": [
         ""
       ]
     }
-    
   ]
 }
