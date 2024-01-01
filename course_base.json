@@ -6,6 +6,103 @@
         "Una, alamin mo ang pasyon at interes mo sa iyong buhay. Anong paborito mong asignatura?",
         "Una, kinakailangan na dapat alam mo kung ano ang mga gusto mo sa buhay. Anong paborito mong asignatura?"
       ]
+    },
+    {
+      "user": "11", 
+      "responses": [
+        "Ikaw pala ay isang studyante mula sa ika-11 na baitang. Sa panahon ng pagiging studyante ng senior ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Sa iyong pag-aaral, anong asignatura ang iyong kinahihiligan?"
+      ]
+    },
+    {
+      "user": "12", 
+      "responses": [
+        "Ikaw pala ay isang studyante mula sa ika-12 na baitang. Sa panahon ng pagiging studyante ng senior ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Sa iyong pag-aaral, anong asignatura ang iyong kinahihiligan?"
+      ]
+    },
+    {
+      "user": "Agham", 
+      "responses": [
+        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
+      ]
+    },
+    {
+      "user": "Sining", 
+      "responses": [
+        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
+      ]
+    },
+    {
+      "user": "Pagluluto", 
+      "responses": [
+        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
+      ]
+    },
+    {
+      "user": "Pagtuturo", 
+      "responses": [
+        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
+      ]
+    },
+    {
+      "user": "Computer Games", 
+      "responses": [
+        "Ano ang iyong mga kalakasan at kasanayan na sa palagay mo'y maaaring magamit sa hinaharap na trabaho?"
+      ]
+    },
+    {
+      "user": "Teknolohpraktikal na pag-aaral", 
+      "responses": [
+        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
+      ]
+    },
+    {
+      "user": "group work", 
+      "responses": [
+        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        "Gusto mo ba ng praktikal na pag-aaral, group work, o mas tradisyunal na paraan ng pagtuturo?"
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
+    },
+    {
+      "user": "Mahilig ako sa Agham at palaging excited sa mga eksperimento.", 
+      "responses": [
+        ""
+      ]
     }
+    
   ]
 }

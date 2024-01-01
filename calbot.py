@@ -24,15 +24,16 @@ def find_best_match(user_question: str, conversation: list[str]) -> str | None:
     matches: list = get_close_matches(user_question, conversation, n=1, cutoff=0.6)
     return matches[0] if matches else None
 
-def get_answer_for_question(question: str, course_base: dict) -> str | None:
+def get_answer_for_question_course_base(question: str, course_base: dict) -> str | None:
     for entry in course_base["conversation"]:
-        if entry["user"].lower() == question.lower():
+        user_inputs = entry["user"]
+        if any(user_input.lower() == question.lower() for user_input in user_inputs):
             responses = entry.get("responses", [])
             return random.choice(responses) if responses else None
         
-def get_answer_for_question(question: str, secondary_level_base: dict) -> str | None:
+def get_answer_for_question_secondary_level(question: str, secondary_level_base: dict) -> str | None:
     for entry in secondary_level_base["conversation"]:
-        if entry["user"].lower() == question.lower():
+        if any(user_input.lower() == question.lower() for user_input in user_inputs):
             responses = entry.get("responses", [])
             return random.choice(responses) if responses else None
 
@@ -51,12 +52,13 @@ def calbot():
     while True:
         user_input: str = input(f'{user_name}: ').lower()
 
-        if user_input == 'quit':
+        if user_input == 'tapusin':
             response = input('\nCalBot: Sigurado ka na bang gusto mong tapusin? (Oo/Hindi): ')
             if response.lower() == 'oo':
                 print('\nCalBot: Paalam! Salamat sa pag-usap. Hanggang sa muli!')
                 break
-            else:
+            elif response.lower() == 'hindi':
+                print('\nCalBot: Mabuti!Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?')
                 continue
 
         # Check if the user wants to switch to the secondary level
@@ -71,7 +73,7 @@ def calbot():
         best_match: str | None = find_best_match(user_input, [q["user"] for q in current_dictionary["conversation"]])
 
         if best_match:
-            answer: str = get_answer_for_question(best_match, current_dictionary)
+            answer: str = get_answer_for_question_course_base(best_match, current_dictionary)
             print(f'\nCalBot: {answer}\n')
         else:
             print('\nCalBot: Hindi ko alam ang iyong sinabi o itinanong. Maaari mo ba itong ituro sa akin?\n')
@@ -82,6 +84,5 @@ def calbot():
                 save_course_base('course_base.json', course_base)
                 save_course_base('secondary_level_base.json', secondary_level_base)
                 print('\nCalBot: Salamat! May bago akong natutunan!\n')
-
 if __name__ == '__main__':
     calbot()
