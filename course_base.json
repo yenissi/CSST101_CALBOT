@@ -1,150 +1,15 @@
 {
   "conversation": [
     {
-      "user": "Paano pumili ng kurso sa kolehiyo?",
-      "responses": [
-        "Una, alamin mo ang pasyon at interes mo sa iyong buhay. Anong paborito mong asignatura?",
-        "Una, kinakailangan na dapat alam mo kung ano ang mga gusto mo sa buhay. Anong paborito mong asignatura?"
-      ]
-    },
-    {
-      "user": [
-        "11",
-        "Grade 11",
-        "11 po"
-      ],
+      "user": ["grade 11","11"],
       "responses": [
         "Ikaw pala ay isang estudyante mula sa ika-11 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?"
       ]
     },
     {
-      "user": "grade 11",
+      "user": ["grade 12","12"],
       "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "11",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "11 po",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": [
-        "12",
-        "Grade 12",
-        "12 po"
-      ],
-      "responses": [
-        "Ikaw pala ay isang estudyante mula sa ika-12 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo lalo na\u2019t ikaw ay magtatapos na ngayong taon. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso? "
-      ]
-    },
-    {
-      "user": "12",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": [
-        "oo",
-        "uu",
-        "sige",
-        "sigii",
-        "Ituloy"
-      ],
-      "responses": [
-        "Mabuti! Ano ang pinaka-gusto o interesado mong asignaturang itinuro sa iyo noong Junior High School? (Pumili ng sagot sa ibaba at isagot lamang ang TAGALOG (sa Pangunahing Asignatura) o AKRONIM lamang (sa Minor na Asignatura))"
-      ]
-    },
-    {
-      "user": "uu",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "sige",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "oo",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": [
-        "hindi",
-        "huwag na",
-        "ayoko na pala",
-        "ayaw ko na",
-        "ayaw"
-      ],
-      "responses": [
-        "Kung nais mo na agad itigil, i-tayp lamang ang salitang \u201cTapusin\u201d. Kung nagbago naman ang iyong isip, i-tayp naman ang salitang \u201cItuloy\u201d. "
-      ]
-    },
-    {
-      "user": "huwag na",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "ayoko na pala",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "ayaw ",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "hindi",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "",
-      "responses": [
-        "ayaw"
-      ]
-    },
-    {
-      "user": "tapusin",
-      "responses": [
-        ""
-      ]
-    },
-    {
-      "user": "ituloy",
-      "responses": [
-        ""
+        "Ikaw pala ay isang estudyante mula sa ika-12 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo lalo na't ikaw ay magtatapos na ngayong taon. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?"
       ]
     }
   ]
