@@ -1,8 +1,8 @@
 #Import necessary modules
-import json
-import random
-import time
-from difflib import get_close_matches
+import json #Dictionary, dito naka-save yung user input at responses nung calbot
+import random #Random na output ang ibibigay ni calbot dun sa responses array sa json
+import time #Delay ito nung pag-output ni calbot. Para bang nag-iisip like chatgpt
+from difflib import get_close_matches #Mahanap ni calbot yung close matches sa user input para ma-output naka-designated doon sa responses
 
 #This is the function to load course base data from a file
 def load_course_base(file_path: str) -> dict:
