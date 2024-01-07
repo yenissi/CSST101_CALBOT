@@ -1,15 +1,452 @@
 {
   "conversation": [
     {
-      "user": ["grade 11","11"],
+      "user": [
+        "ok",
+        "sige",
+        "magpatuloy"
+      ],
       "responses": [
-        "Ikaw pala ay isang estudyante mula sa ika-11 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?"
+        "Ano ang pinaka-gusto o interesado mong asignaturang itinuro sa iyo noong Junior High School?\n\nPangunahing Asignatura (Major Subjects): Agham (Science), Matematika (Mathematics), Filipino, o Ingles (English)\n\nMinor na Asignatura (Minor Subjects): Araling Panlipunan (AP), Edukasyon sa Pagpapakatao (EsP), Edukasyong Teknolohiya at Kabuhayan (TLE), o Musika, Sining, Edukasyong Pangkatawan, at Kalusugan (MAPEH)"
       ]
     },
     {
-      "user": ["grade 12","12"],
+      "user": [
+        "hindi",
+        "ayoko"
+      ],
       "responses": [
-        "Ikaw pala ay isang estudyante mula sa ika-12 na baitang. Sa panahon ng pagiging estudyante ng Senior High ay dito na tayo magkakaroon ng mas malalim na interes kung ano ba ang tatahakin nating kurso sa kolehiyo lalo na't ikaw ay magtatapos na ngayong taon. Maaari na ba tayong magpatuloy ukol sa paghahanap ng kurso?"
+        "Kung nais mo na agad itigil, i-tayp lamang ang salitang \u0022Tapusin\u0022. Kung nagbago naman ang iyong isip, i-tayp naman ang salitang \u0022Magpatuloy\u0022."
+      ]
+    },
+    {
+      "user": [
+        "agham",
+        "science"
+      ],
+      "responses": [
+        "Maganda ang iyong nagustuhang asignatura! Kilala ang agham na isang magandang asignatura dahil ito ang naglalayong paramihin ang ating kaalaman sa kalikasan, teknolohiya, at iba't ibang bahagi ng buhay. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "matematika",
+        "mathematics"
+      ],
+      "responses": [
+        "Nagugustuhan mo ang Matematika! Isa ito sa mga asignatura na kadalasang kinakatakutan ngunit napakagandang balikan dahil sa kanyang logic at challenges. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "filipino"
+      ],
+      "responses": [
+        "Maganda at paborito mo ang Filipino! Isa itong asignaturang nagbibigay halaga sa ating sariling wika at kultura. Ang pag-aaral nito ay pagtangkilik sa ating pagiging Pilipino. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "ingles",
+        "english"
+      ],
+      "responses": [
+        "Ayon sa iyong paboritong asignatura, malamang na nagugustuhan mo ang Ingles. Isa itong asignaturang nagbibigay daan sa pang-unawa sa global na komunikasyon at nagbubukas ng maraming oportunidad sa larangan ng edukasyon at trabaho. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "araling panlipunan",
+        "ap"
+      ],
+      "responses": [
+        "Araling Panlipunan pala ang iyong paborito!  Isa itong asignaturang nagtatampok ng ating kasaysayan, kultura, at lipunan. Sa pag-aaral nito, mas nagiging malalim ang ating pag-unawa sa sarili nating bansa at sa mundo. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "edukasyon sa pagpapakatao",
+        "esp"
+      ],
+      "responses": [
+        "Isang magandang pagsusuri ang iyong pagpili sa Edukasyon sa Pagpapakatao! Isa itong asignaturang naglalaman ng mga aral tungkol sa moralidad, etika, at pag-unlad bilang isang mabuting mamamayan. Sa pag-aaral nito, nabubuo ang iyong pagpapahalaga sa tamang pag-uugali at pakikipagkapwa. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "edukasyong teknolohiya at kabuhayan",
+        "t.l.e"
+      ],
+      "responses": [
+        "Ang paborito mong asignatura pala ay Edukasyong Teknolohiya at Kabuhayan! Isa itong asignaturang nagbibigay-halaga sa mga praktikal na kasanayan at kaalaman sa larangan ng teknolohiya at pangkabuhayan. Sa pag-aaral nito, maaaring maging handa ka sa iba't ibang oportunidad sa trabaho at negosyo. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "musika, sining, edukasyong pangkatawan, at kalusugan",
+        "mapeh"
+      ],
+      "responses": [
+        "Maganda at paborito mo ang Musika, Sining, Edukasyong Pangkatawan, at Kalusugan! Ang pagkakaroon ng paborito sa bawat isa sa kanila ay nagpapakita ng kakaibang aspeto ng iyong personalidad, kalusugan, at interes. Nakatulong ba ang asignaturang ito sa iyo upang makapili ng TRACK/STRAND ngayong Senior High School o propesyon sa hinaharap? (I-tayp ang \u0022Nakatulong ito\u0022 o \u0022Wala itong naitulong\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "nakatulong ito",
+        "Nakatulong"
+      ],
+      "responses": [
+        "Nais kong malaman kung ano ang TRACK/STRAND na iyong kinuha ngayong Senior High School?"
+      ]
+    },
+    {
+      "user": [
+        "Wala itong naitulong"
+      ],
+      "responses": [
+        "Ikinalulungkot kong malaman ito. Ano bang napagpasyahan mong kunin na TRACK/STRAND ngayong Senior High School?"
+      ]
+    },
+    {
+      "user": [
+        "stem"
+      ],
+      "responses": [
+        "Narito ang ilan sa mga propesyon na kaugnay sa STEM strand.\n\nInhenyero (Mekanikal, Sibil, Elektrikal, atbp.)\nSiyentipiko (Kemista, Biyologo, Pisika, atbp.)\nGuro sa Matematiko\nPropesyonal sa Teknolohiya (IT o Komsay)\nPropesyonal sa Medisina (Doktor, Nurse, atbp.)\n\nNarito ba ang iyong napupusuang propesyon sa buhay? (I-tayp ang \u0022Oo\u0022 o \u0022Wala\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "abm"
+      ],
+      "responses": [
+        "Narito ang ilan sa mga propesyon na kaugnay sa ABM strand.\n\nTaga-kwenta (Accountant)\nTagapagsuri ng Negosyo (Business Analyst)\nPropesyonal sa Marketing\nNegosyante\nTagapagsuri ng Pananalapi (Financial Analyst)\n\nNarito ba ang iyong napupusuang propesyon sa buhay? (I-tayp ang \u0022Oo\u0022 o \u0022Wala\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "humss"
+      ],
+      "responses": [
+        "Narito ang ilan sa mga propesyon na kaugnay sa HUMSS strand.\n\nSikolohista\nManggagawang Panlipunan (Social Worker)\nEdukador/Guro\nHistoryador\nManunulat o Mamahayag\n\nNarito ba ang iyong napupusuang propesyon sa buhay? (I-tayp ang \u0022Oo\u0022 o \u0022Wala\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "tvl"
+      ],
+      "responses": [
+        "Narito ang ilan sa mga propesyon na kaugnay sa TVL strand.\n\nPropesyonal sa Kusina at Pagluluto (Chef)\nTeknolohistang Awto (Automotive Technician)\nElektrisyan (Electrician)\nPropesyonal sa Hotel at Pamahalaang Restawran (HRM)\nPropesyonal sa Teknolohiya (IT o Komsay)\n\nNarito ba ang iyong napupusuang propesyon sa buhay? (I-tayp ang \u0022Oo\u0022 o \u0022Wala\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "gas"
+      ],
+      "responses": [
+        "Narito ang ilan sa mga propesyon na kaugnay sa GAS strand.\n\nPropesyonal sa Agham Panlipunan\nMananaliksik\nTagatulong na Tagapamahala (Assistant Administrator)\n\nNarito ba ang iyong napupusuang propesyon sa buhay? (I-tayp ang \u0022Oo\u0022 o \u0022Wala\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "oo"
+      ],
+      "responses": [
+        "Ako ay nagagalak dahil may napusuan ka nang propesyon sa buhay. May balak ka bang ituloy ang iyong propesyong nais? (I-tayp ang \u0022May balak\u0022 o \u0022Di ko binabalak\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "wala"
+      ],
+      "responses": [
+        "Kung wala sa mga nabanggit, mamili ka sa mga STRAND kung narito ba ang tamang propesyon na gusto mo. (ABM/STEM/TVL/HUMSS/GAS)"
+      ]
+    },
+    {
+      "user": [
+        "may balak"
+      ],
+      "responses": [
+        "Mabuti! Anong propesyon base sa mga nabanggit kanina ang nais mong kunin sa hinaharap?"
+      ]
+    },
+    {
+      "user": [
+        "di ko binabalak"
+      ],
+      "responses": [
+        "Kung ikaw ay nagdesisyong hindi ituloy ang iyong propesyong nais, ano ang pinaka-dahilan ng hindi mo pagtuloy sa iyong propesyong nais? Pumili ng isa sa mga sumusunod: Kalusagan, Pinansyal, Kakulangan sa Suporta, o Kakulangan sa Motibasyon"
+      ]
+    },
+    {
+      "user": [
+        "kalusagan",
+        "pinansyal",
+        "Kakulangan sa Suporta",
+        "Kakulangan sa Motibasyon"
+      ],
+      "responses": [
+        "Kung bibigyan ka ng pagkakataon na ituloy ito, anong propesyon base sa mga nabanggit kanina ang nais mong kunin sa hinaharap?"
+      ]
+    },
+    {
+      "user": [
+        "inhenyero"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in (Mechanical, Civil, o Electrical) Engineering . Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "siyentipiko"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in (Chemistry, Biology, o Physics) Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "guro sa matematiko"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Mathematics. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "propesyonal sa medisina"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in (Nursing, Psychology, Biology, o Chemistry). Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "propesyonal sa teknolohiya"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in (Information Technology o Computer Science). Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Taga-kwenta",
+        "Accountant"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Accountancy. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Tagapagsuri ng Negosyo",
+        "Business Analyst"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Business Administration. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Propesyonal sa Marketing"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Marketing Management. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Negosyante"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Entrepreneurship. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Financial Analyst",
+        "Tagapagsuri ng Pananalapi"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Financial Management. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Sikolohista"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Psychology. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Social Worker",
+        "Manggagawang Panlipunan"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Social Work. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Edukador",
+        "Guro"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in (Secondary Education o Elementary Education). Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Historyador"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in History. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Manunulat",
+        "Mamahayag"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Arts in (Communication o Communication Arts). Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Propesyonal sa Kusina at Pagluluto",
+        "Chef"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Culinary Arts and Kitchen Management. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Automotive Technician"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Automotive Technology. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Elektrisyan"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Electrical Engineering Technology. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Hotel and Restaurant Management",
+        "hrm"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Hotel and Restaurant Management. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "IT"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Information Technology. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Komsay"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Computer Science. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Propesyonal sa Agham Panlipunan"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Arts in Sociology. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Mananaliksik"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Research and Development Management. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "Assistant Administrator",
+        "Tagatulong na Tagapamahala"
+      ],
+      "responses": [
+        "Sa wakas! Ang kursong para sayo ay Bachelor of Science in Bachelor of Science in Business Administration. Gusto mo pa bang ituloy ang kursong ito? (I-tayp ang \u0022Gusto ko\u0022 o \u0022Hindi ko nais\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "gusto ko"
+      ],
+      "responses": [
+        "Magaling! Isa ang LSPU na kilala bilang isang matagumpay na unibersidad na mayrrong ibat ibang kursong swak sa iyong hilig. Handa ka na bang magsumite ng aplikasyon? (I-tayp ang \u0022Handa na\u0022 o \u0022Di ko itutuloy\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "hindi ko nais"
+      ],
+      "responses": [
+        "Ikinalulungkot kong malaman ito. Kung nais mo na agad itong itigil, i-tayp lamang ang salitang \u0022Tapusin\u0022."
+      ]
+    },
+    {
+      "user": [
+        "handa na"
+      ],
+      "responses": [
+        "Kung handa ka na, ano ang iyong paraan ng pagsusumite ng aplikasyon? (Onlayn/Personal)"
+      ]
+    },
+    {
+      "user": [
+        "di ko itutuloy"
+      ],
+      "responses": [
+        "Kung hindi ka pa handa ay malaya mo ulit siyasatin pa kung anong kurso ang gusto mong tahakin. Ang pagkaroon ng kagustuhan sa mga bagay na ating ginagawa ay magiging maganda ang bunga ng pagsisikap. Muli kang magbalik dito kung ikaw ay handa na muling mangilatis ng kursong iyong lalakarin. Maraming salamat sa iyong oras. Hanggang sa muli ka-CALBOT! (I-tayp ang salitang \u0022Tapusin\u0022 upang magtapos ang chatbot na ito)"
+      ]
+    },
+    {
+      "user": [
+        "Onlayn"
+      ],
+      "responses": [
+        "Maaari kang magpasa ng iyong aplikasyon sa kawing-ugma na ito: https://apply.lspuonline.com/register. Ang sumusunod na mga detalye ay malalaman pagkatapos mong magsumite dito. May iba ka pang gustong malaman? (I-tayp ang \u0022Mayroon pa\u0022 o \u0022Wala na\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "personal"
+      ],
+      "responses": [
+        "Maaari kang magpasa ng iyong aplikasyon sa Tanggapan ng Registrar. Ang opisina na ito ay karaniwang responsable sa mga papeles at rekord ng mga mag-aaral tulad ng mga grades, enrollment records, at iba pang kaukulang dokumento. Sa opisina ng registrar, maaaring makakuha ng kopya ng transcript of records, mag-request ng dokumento kaugnay sa enrollment, at iba pa. May iba ka pang gustong malaman? (I-tayp ang \u0022Mayroon pa\u0022 o \u0022Wala na\u0022)"
+      ]
+    },
+    {
+      "user": [
+        "mayroon pa"
+      ],
+      "responses": [
+        "Tama na, pls. I-tayp mo na ang \u0022TAPUSIN\u0022 o \u0022WALA NA\u0022",
+        "Itigil na natin ito, I-tayp mo na ang \u0022TAPUSIN\u0022. Salamat.",
+        "Wala na dapat. Tapusin mo na ito."
       ]
     }
   ]
